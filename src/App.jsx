@@ -41,10 +41,10 @@ function App() {
 
     const router = createBrowserRouter([
         {
-            path: '/',
+            path: '/E-commerce_reactjs',
             element: <Layout />,
             children: [
-                { path: '/', element: <ProtectedRoute><Home /></ProtectedRoute> },
+                { path: '/E-commerce_reactjs', element: <ProtectedRoute><Home /></ProtectedRoute> },
                 { path: '/home', element: <ProtectedRoute><Home /></ProtectedRoute> },
                 { path: '/products', element: <ProtectedRoute><Products /></ProtectedRoute> },
                 { path: '/productDetails/:id', element: <ProtectedRoute><ProductDetails /></ProtectedRoute> },
